@@ -1,0 +1,18 @@
+## CODE 
+
+code/analysis_all.R: script with the complete analysis for recurrence at all
+code/analysis_LR.R: script with the complete analysis for recurrence at all
+code/analysis_M.R: script with the complete analysis for recurrence at all
+
+## DATA
+
+data/2_5MDC final version.xlsx: clinical data and outcome
+
+
+data/GTV_nofilter_anon.RData: radiomics features extracted from GTV w/out log filter (a matrix where columns are features and rows are patients)
+data/PERITUMOR_nofilter_anon.RData: radiomics features extracted from PERITUMOR w/out log filter (a matrix where columns are features and rows are patients)
+data/LOBE_nofilter_anon.RData: radiomics features extracted from LOBE w/out log filter (a matrix where columns are features and rows are patients)
+
+data/GTV_logfilter_anon.RData: radiomics features extracted from GTV with different values of the log filter (a list matrices where index list is log sigma value, colums are features and rows are patients)
+data/PERITUMOR_logfilter_anon.RData: radiomics features extracted from PERITUMOR with different values of the log filter (a list matrices where index list is log sigma value, colums are features and rows are patients)
+data/LOBE_logfilter_anon.RData: radiomics features extracted from LOBE with different values of the log filter (a list matrices where index list is log sigma value, colums are features and rows are patients)
