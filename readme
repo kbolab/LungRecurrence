@@ -6,9 +6,6 @@ code/analysis_M.R: script with the complete analysis for recurrence at all
 
 ## DATA
 
-data/2_5MDC final version.xlsx: clinical data and outcome
-
-
 data/data.gtv.csv: radiomics features extracted from GTV w/out log filter (columns are features and rows are patients)
 data/data.peritumor.csv: radiomics features extracted from PERITUMOR w/out log filter (columns are features and rows are patients)
 data/data.lobe.csv: radiomics features extracted from LOBE w/out log filter (columns are features and rows are patients)
